@@ -36,7 +36,7 @@
             this.pnlScene.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlScene.Location = new System.Drawing.Point(0, 0);
             this.pnlScene.Name = "pnlScene";
-            this.pnlScene.Size = new System.Drawing.Size(984, 611);
+            this.pnlScene.Size = new System.Drawing.Size(1061, 601);
             this.pnlScene.TabIndex = 0;
             // 
             // frmMain
@@ -44,10 +44,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(984, 611);
+            this.ClientSize = new System.Drawing.Size(1061, 601);
             this.Controls.Add(this.pnlScene);
             this.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.MinimumSize = new System.Drawing.Size(1000, 600);
+            this.MinimumSize = new System.Drawing.Size(1000, 640);
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Caro";

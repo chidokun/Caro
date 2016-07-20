@@ -88,6 +88,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Scenes\MenuScene.resx">
       <DependentUpon>MenuScene.cs</DependentUpon>
@@ -104,6 +105,19 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ArtificialIntelligence\ArtificialIntelligence.csproj">
+      <Project>{dc2f324d-9968-455e-b85b-835ebc4351f9}</Project>
+      <Name>ArtificialIntelligence</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GameControl\GameControl.csproj">
+      <Project>{a73d47e2-cdd5-4f79-8691-035dced02c0d}</Project>
+      <Name>GameControl</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

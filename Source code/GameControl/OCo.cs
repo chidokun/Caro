@@ -6,26 +6,31 @@ using System.Text;
 
 namespace GameControl
 {
+    public enum QuanCo { Blank, X, O }
+
     public class OCo
     {
         private const int _height = 30;
         private const int _width = 30;
-        private Point _position;
 
-        public int Height
+
+        public static int Height
         {
             get { return _height; }
         }
 
-        public Point Position
-        {
-            get { return _position; }
-            set { _position = value; }
-        }
-
-        public int Width
+        public static int Width
         {
             get { return _width; }
         }
+
+        public int Row { get; set; }
+
+        public int Column { get; set; }
+
+        public Point Position { get; set; }
+
+        public QuanCo QuanCo { get; set; } = QuanCo.Blank;
+
     }
 }
